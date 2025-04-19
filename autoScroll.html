@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            
+        }
+#mybox{
+    border:2px solid black;
+    width: 230px;
+    height: 400px;
+    margin-top:130px;
+    margin-left: 200px;
+    font-size: 17px;
+    overflow: auto;
+
+}
+#mybox2{
+    border:2px solid black;
+    width: 230px;
+    /* height: 400px; */
+    margin-top:130px;
+    margin-left: 200px;
+    font-size: 17px;
+    overflow: auto;
+
+}
+    </style>   
+</head>
+<body >
+    <div id="mybox" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sint tempore fugiat vitae, ab quibusdam eaque laudantium sapiente temporibus, natus nihil libero, beatae necessitatibus blanditiis aliquid! Ipsam maiores deleniti distinctio.lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti ullam modi nisi praesentium. Animi ipsum suscipit exercitationem quis possimus ratione repudiandae dicta aliquid voluptatem culpa dolor perferendis, vel quas.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos rerum ad, dolor qui excepturi corrupti quas unde inventore perspiciatis asperiores vel iure officiis architecto sint, illo sequi quisquam facere tempore.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates vero recusandae nemo reiciendis alias, delectus reprehenderit praesentium error sint, odio optio soluta eligendi laborum adipisci nobis suscipit illo aliquid.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem facere nesciunt voluptatem dolor. Asperiores dolores dignissimos architecto error! Nam fuga pariatur explicabo consequuntur ducimus quaerat cum dolores vel inventore eos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti ullam modi nisi praesentium. Animi ipsum suscipit exercitationem quis possimus ratione repudiandae dicta aliquid voluptatem culpa dolor perferendis, vel quas.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos rerum ad, dolor qui excepturi corrupti quas unde inventore perspiciatis asperiores vel iure officiis architecto sint, illo sequi quisquam facere tempore.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates vero recusandae nemo reiciendis alias, delectus reprehenderit praesentium error sint, odio optio soluta eligendi laborum adipisci nobis suscipit illo aliquid.
+        Lor
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti ullam modi nisi praesentium. Animi ipsum suscipit exercitationem quis possimus ratione repudiandae dicta aliquid voluptatem culpa dolor perferendis, vel quas.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos rerum ad, dolor qui excepturi corrupti quas unde inventore perspiciatis asperiores vel iure officiis architecto sint, illo sequi quisquam facere tempore.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates vero recusandae nemo reiciendis alias, delectus reprehenderit praesentium error sint, odio optio soluta eligendi laborum adipisci nobis suscipit illo aliquid.
+        Lor
+        
+    </div>
+    <div id="mybox2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sint tempore fugiat vitae, ab quibusdam eaque laudantium sapiente temporibus, natus nihil libero, beatae necessitatibus blanditiis aliquid! Ipsam maiores deleniti distinctio.lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti ullam modi nisi praesentium. Animi ipsum suscipit exercitationem quis possimus ratione repudiandae dicta aliquid voluptatem culpa dolor perferendis, vel quas.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos rerum ad, dolor qui excepturi corrupti quas unde inventore perspiciatis asperiores vel iure officiis architecto sint, illo sequi quisquam facere tempore.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates vero recusandae nemo reiciendis alias, delectus reprehenderit praesentium error sint, odio optio soluta eligendi laborum adipisci nobis suscipit illo aliquid.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem facere nesciunt voluptatem dolor. Asperiores dolores dignissimos architecto error! Nam fuga pariatur explicabo consequuntur ducimus quaerat cum dolores vel inventore eos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti ullam modi nisi praesentium. Animi ipsum suscipit exercitationem quis possimus ratione repudiandae dicta aliquid voluptatem culpa dolor perferendis, vel quas.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos rerum ad, dolor qui excepturi corrupti quas unde inventore perspiciatis asperiores vel iure officiis architecto sint, illo sequi quisquam facere tempore.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates vero recusandae nemo reiciendis alias, delectus reprehenderit praesentium error sint, odio optio soluta eligendi laborum adipisci nobis suscipit illo aliquid.
+        Lor
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti ullam modi nisi praesentium. Animi ipsum suscipit exercitationem quis possimus ratione repudiandae dicta aliquid voluptatem culpa dolor perferendis, vel quas.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos rerum ad, dolor qui excepturi corrupti quas unde inventore perspiciatis asperiores vel iure officiis architecto sint, illo sequi quisquam facere tempore.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates vero recusandae nemo reiciendis alias, delectus reprehenderit praesentium error sint, odio optio soluta eligendi laborum adipisci nobis suscipit illo aliquid.
+        Lor
+       
+    </div>
+    
+     <script>
+        var mywidth = 2;       
+               var id = setInterval(function(){
+                if(mywidth <= 1000){
+            var mybox = document.getElementById("mybox");
+            mybox = window.scrollBy(0, 2);
+            mywidth = mywidth + 2;
+               }
+                if(mywidth >= 1000){
+                clearInterval(id);   
+                        
+                
+            }
+           
+
+          
+        },10);
+       
+
+     </script>
+</body>
+</html>
