@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            
+        }
+        #outer-box{
+            border:2px solid black;
+            width: 230px;
+            height:400px;
+            margin-top:130px;
+            margin-left: 200px;
+            overflow:auto;
+            /* overflow: hidden; */
+        }    
+
+       
+        .inner-box{
+            border:2px solid red;
+            width: 100%;            
+             animation-name: autoscroll;
+            animation-duration: 15s; 
+            animation-iteration-count: infinite;        
+        }
+        @keyframes autoscroll{
+            0% {transform: translateY(0%);}
+            100% {transform: translateY(-80%);}
+
+}
+.inner-box:hover{   
+    animation-name: none;
+     
+}
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div id="outer-box">
+        <div class="inner-box"><span style="color:red; font-size: xx-large;">This is my heading</span>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sed unde magnam obcaecati possimus voluptas. Aspernatur velit quo dolorem hic excepturi, nihil laborum vel eius, inventore soluta reprehenderit, iure recusandae.ipsum, dolor sit amet consectetur adipisicing elit. Repellat, repellendus? Magni temporibus mollitia tempora nam ipsa harum quibusdam, atque porro explicabo quasi earum ex omnis tenetur! Maiores placeat magnam autem!
+            Lorem ipsum dolor sit amet<span style="color:red; font-size: x-large;"> this a main point</span> consectetur adipisicing elit. Commodi, praesentium. Alias, fuga velit ad praesentium eos quidem provident quam enim, nulla necessitatibus asperiores temporibus pariatur corrupti esse labore. Ea,<span style="color:rgb(255, 0, 0)"> this a main point</span> exercitationem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam omnis <span style="color:green; font-size: x-large;"> this a main point</span>atque, dignissimos ad fuga ipsam necessitatibus officiis <span style="color:blue; font-weight: 900;"> this a main point</span>aut quidem modi ipsa? Eveniet neque, nulla sint consectetur odit aspernatur ducimus?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque minima veniam omnis, error accusamus aut consequuntur voluptates saepe doloremque, labore numquam pariatur explicabo iure aperiam blanditiis? Fugiat tempore architecto aliquam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, repellendus? Magni temporibus mollitia tempora nam ipsa harum quibusdam, atque porro explicabo quasi earum ex omnis tenetur! Maiores placeat magnam autem!
+        Lorem ipsum dolor sit amet<span style="color:red; font-size: x-large;"> this a main point</span> consectetur adipisicing elit. Commodi, praesentium. Alias, fuga velit ad praesentium eos quidem provident quam enim, nulla necessitatibus asperiores temporibus pariatur corrupti esse labore. Ea,<span style="color:rgb(255, 0, 0)"> this a main point</span> exercitationem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam omnis <span style="color:green; font-size: x-large;"> this a main point</span>atque, dignissimos ad fuga ipsam necessitatibus officiis <span style="color:blue; font-weight: 900;"> this a main point</span>aut quidem modi ipsa? Eveniet neque, nulla sint consectetur odit aspernatur ducimus?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque minima veniam omnis, error accusamus aut consequuntur voluptates saepe doloremque, labore numquam pariatur explicabo iure aperiam <span style="color:red; font-size: x-large;"> this my bottom text</span>blanditiis? Fugiat tempore architecto aliquam!lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus odit laudantium voluptatem adipisci eos quam! Magni odit animi ipsam, veritatis, quisquam quis officiis quas eveniet temporibus facilis ipsum repudiandae?sahiba</div>
+            </div>
+            <div class="mytext">abc</div>
+           
+</body>
+</html>
