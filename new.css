@@ -296,31 +296,16 @@
   }
   
   .font-size {
-    /* font-size: 19px; */
-    line-height: 17px;
+      line-height: 17px;
   }
-  /* .arrow-btn{
-   border:2px solid black;
-   padding: 5px 7px;
-   border-top-right-radius: 9px;
-   border-bottom-right-radius: 9px;
-    position: absolute;
-    top: 150px;
-    left: 9%;
-    color:black;
-  } */
-   /* #Click:checked ~ .scroll-navbar {
-  top:0;
-  left: -100px;
-   }   */
+
   
   #inside-body-border {
     /* border: 10px solid green; */
     width: 91.5%;
     overflow: auto;
     height: 659px;
-     padding: 9% 9% 0% 9%;
-    
+     padding: 9% 9% 0% 9%;   
    
   }
   
@@ -348,7 +333,8 @@
   }
   
   .mid-border {
-    /* border: 2px solid black; */
+    /* border: 22px solid black; */
+    border:2px solid red;
     box-sizing: border-box;
     width: 100%;
      display: flex;
@@ -389,18 +375,13 @@
     /* border: 2px solid red; */
     border-radius: 11px;
     background-color: #183e89;
-    background-color: red;
-    color: white;
+     color: white;
     width: 40%;
     /* max-width: 100px; */
     padding: 7px;
     font-weight: 700;
-    /* margin: -6.5% 0px 0px 3%; */
-    /* background-color: yellow; */
-    font-family: Arial, Helvetica, sans-serif;
-  /* position: absolute;
-  top:85px;
-  left: 10px; */
+     font-family: Arial, Helvetica, sans-serif;
+
   }
   
   .view-w {
@@ -435,20 +416,20 @@
     box-sizing: border-box;
     height: 40px;
     max-height: 50px;
-    width: 30%;
+    width: 33%;
     display: flex;
     justify-content: space-between;
     padding: 0px 5px;
    z-index: 2;
    position: absolute;
    top:-20px;
-   left:70%;
+   left:69%;
    right: 0px;
     
   }
   .hap-view2{
     /* border: 1px solid orange; */
-    background-color: white;
+    /* background-color: white; */
     box-sizing: border-box;
     height: 40px;
     max-height: 50px;
@@ -522,14 +503,13 @@
     margin-top: 50px;
     margin-bottom: 30px;
     border-radius: 15px;
-    position: relative;
-  
-   
+    position: relative;   
    
     
   }
   .teachers-video{
     border: 1px solid rgb(107, 106, 106);
+    /* border: 2px solid green; */
     box-sizing: border-box;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
@@ -612,8 +592,7 @@
     color: white;
      /* max-width: 67%;
     min-width: 50%; */
-    max-width: 45%;
-    min-width: 150px;
+    width: 50%;
      padding: 3%;
    height: 40px;
     font-size: 19px;  
@@ -636,10 +615,6 @@
   .heading-point-s{
     /* border: 2px solid green; */
     font-size: 17px;
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
-    /* margin: 60% 11%;    */
     color: rgb(71, 70, 70);
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -745,7 +720,7 @@
   }
   .top-point3{
     /* border:2px solid red; */
-    background-color: white;
+    /* background-color: white; */
     width: 31.5%;
     height: 45px;
     display: flex;
@@ -757,7 +732,7 @@
   }
   .top-point2{
     /* border:2px solid orange; */
-    background-color: white;
+    /* background-color: white; */
     width: 31.3%;
     height: 45px;
     display: flex;
@@ -769,7 +744,7 @@
   }
   .top-point1{
     /* border:2px solid orange; */
-    background-color: white;
+     /* background-color: white; */
     width: 31%;
     height: 45px;
     display: flex;
@@ -840,38 +815,7 @@
     overflow: auto;
     
   }
-  /* .notice-box1-b::-webkit-scrollbar {
-    width: 3px;
-    background-color: rgb(233, 7, 7);
-  }
-  
-  .notice-box1-b::-webkit-scrollbar-track {
-    border-radius: 3px;
-    background-color: rgb(237, 84, 84);
-  }
-  
-  .notice-box1-b::-webkit-scrollbar-thumb {
-    border-radius: 3px;
-    background-color: rgb(181, 178, 178);
-  }
-
-
-
-
-  .notice-box1-c::-webkit-scrollbar {
-    width: 5px;
-    background-color: white;
-  }
-  
-  .notice-box1-c::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background-color: white;
-  }
-  
-  .notice-box1-c::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: rgb(181, 178, 178);
-  } */
+   
   .heading-point-c{
     /* border:5px solid red; */
     box-sizing: border-box;
@@ -896,21 +840,7 @@
   .heading-point-c:hover{
     animation-name: none;
   }
-  /* .heading-point-c::-webkit-scrollbar {
-    width: 5px;
-    background-color: rgb(120, 0, 0);
-    
-  }
   
-  .heading-point-c::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background-color: rgb(113, 6, 6);
-  }
-  
-  .heading-point-c::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: rgb(23, 1, 1);
-  } */
   .heading-point-c-1{
     /* border:2px solid green; */
     margin-top: 20px;
@@ -1155,288 +1085,101 @@
   #click{
     display: none;
   }
-  
-    
-    @media  only screen and (max-width:690px){
-  
-        .arrow{
-      position: fixed;
-      left: 7.7%;
-    }
+  @media only screen and (max-width:690px){
     .mid-border{
-      display: block;  
-      box-sizing: border-box;
+      display: block;
+      margin: 0%;
+      padding: 0%;
       width: 100%;
-        }
-        .mid-body{
-        
-          width: 100%;
-          height: 300px;
-          margin-bottom: 70px;
-        }
-       
-        .happening-view{
-          margin-top: 25px;
-          display: flex;
-          
-        }
-        .happenings{
-          width: 170px;
-          text-align: center;
-          height: 45px;
-          padding: 0;
-          padding-top: 11px;
-          
-        }
-        .view-w{
-         
-          text-align: center;
-          margin-left: 510px;
-          width: 85px;
-          height: 35px;
-        
-        }
-        #inside-body-border{
-          width: 100%;
-        }
-               .classes{
-               
-          display: block;
-          width: 100%;
-         }
-         .time-line{
-          
-           width: 99%;
-          height: 300px;
-          margin: 0;
-          margin-top: 50px;
-         }
-         .heading-point-s{
-          margin: 31% 15%;
-         }
-         .happenings-s{
-         
-          width: 167px;
-          height: 40px;
-          padding-top: 10px;
-         }
-               .teachers-video{
-         
-          width: 100%;
-        }
-        .outer-border-video{
-         
-          display: block;
-          margin-top: 3px;
-          
-        }
-        .video-a{
-          width: 100%;
-          margin-bottom: 30px;
-        }
-        .important-notice{
-         
-          display: block;
-        }
-        .notice-box1{
-         
-          width: 100%;
-          margin-bottom: 50px;
-          height : 500px;
-         
-        }
-       
-  
-        .top-point{
-           justify-content: space-between;
-          padding: 0px 20px;
-          
-          
-        }
-        .about-class{
-          width: 190px;
-          margin-top: -15px;
-              }
-              .view-notice{
-                width: 70px;
-                height: 35px;
-                margin-top: -15px;
-              }
-        
-         .notice-box1{
-           height: 425px;
-           padding-bottom: 30px;
-         }
-        .heading-point-a{
-          margin: 0;
-          margin: 190px 50px;
-        }
-        .heading-point-c{
-         
-          padding: 0;
-          padding: 20px 50px;
-          
-         
-        }
-        .e-tutorial{
-          width: 157px;
-        }
-        .Learner-part{
-          width: 145px;
-        }
-        #helpN{
-          display: none;
-  
-        }
-       
-        #header{
-          justify-content: space-between;
-        }
-        #lovely{
-           width: 33%;
-           height: 110px;
-           margin: 0;
-          padding: 38px;
-  
-        }
-        .footer{
-          display: block;
-  
-        }
-        .bborder{
-          width: 100%;
-          margin-bottom: 20px;
-          justify-content: space-between;
-          
-        }
-        
-        .font-size {
-          /* font-size: 19px; */
-          line-height: 13px;
-        }
-        .box-a-logo-size{
-          font-size: 19px;
-        }
-         
-       .border-box-s p{
-        font-size: 9px;
-       }
       
+    }
+    .time-line{
+      display: block;
+      width: 100%;
+      height: 100%;
+    margin-top: 50px;
+    }
+    .classes{
+      margin-top: 590px;
+      display: block;
+    }
+    .teachers-video{
+      width: 100%;;
+    }
+    .time-line2{
+      width: 100%;
+      height: 500px;
+      margin-top: 50px;
+    }
+    .hap-view{
+      top:531px;
+      left: 20px;
+      width: 100%;
+    }
+    .hap-view2{
+      top:531px;
+      left: 0px;
+      width: 100%;
+    }
+    .important-notice{
+      display: block;
+    }
+    .notice-box1-a{
+      width: 100%;
+      height: 500px;
+
+    }
+    .notice-box1-b{
+      width: 100%;
+      height: 500px;
+      margin-top: 70px;
+          
+    }
+    .notice-box1-c{
+      width: 100%;
+      height: 500px;
+      margin-top: 70px;
+          
+    }
+    .top-point1{
+      top:-40px;
+      left:0%;
+      width: 100%;
+    }
+    .top-point2{
+      top:530px;
+      left:0%;
+      width: 100%;
+    }
+    .top-point3{
+      top:1100px;
+      left:0%;
+      width: 100%;
+    }
+  }
+   
+  
+
+
+
+
+
+
+
+
+
+
+
       
-       .center-nav-item {
-        position: fixed;
-        top:0px;
-        left: -100%;
-        background-color: white;
-         height: 100vh;
-        width: 77vw;
-        transition: all 0.3s ease;
-        display: block;   
-        }            
-        .center-nav-item ul li{
-        margin: 30px 55px;
-        width: 200px;
-        font-size: 19px;
-       }
-       .dropdown1{
-        width: 200px;
-       }
-        .dropdown1  ul li{
-          font-size: 15px;
-        }
-        .dropdown1 ul li
-        {
-          width: 100%;
-         margin: 0;
-         padding: 0;
-         padding-left: 15px;
-        }    
-       
-  
-       .menu-btn{
-        display: block;
-        margin-top: 10px;
-       }
-  
-       .box-heading-item0{
-        display: none;
-       }
-       .item-border-p{
-        margin-left: 53px;
-       }
-       #click:checked ~ .center-nav-item {
-        top:100px;
-        left: 0%;
-       }  
-               #click:checked ~ .menu-btn i:before{
-        content: "\f00d";
-        
-       }  
-       .heading-space-announcement div{
-        font-size: 9px;
-        padding: 0;
-        width: 15%;
-        padding: 20px 0px;
-        font-size: 9px;
-      min-width: 45px;   
-      
-  
-       }  
-       .heading-space-announcement .heading-point-announce-all-text-padd {
-        width: 5%;
-        font-size: 13px;
-       }
-       .heading-space-announcement .heading-point-announce-text-padd{
-        padding: 0;
-        font-size: 13px;
-        padding: 7px 0px;
-       min-width: 145px;
-       }
-       .heading-space-announcement{
-        min-width: 375px;
-        
-       }
-       .heading-space-announcement-2{
-        min-width: 375px;
-        
-       }
-       .heading-point-announce-co{
-        font-size: 11px;
-       }
-       .heading-point-announce-m{
-        font-size: 11px;
-       }
-       .announsment-box{
-        min-width: 450px;
-       }
-       .notice-box1{
-        min-width: 450px;
-       }
-       .time-line{
-        min-width: 450px;
-       }
-       .teachers-video{
-        min-width: 450px;
-       }
-       .mid-body{
-        min-width: 450px;
-       }
        
        
        
          
-      }
+      
       
     
-  /* .xyz{
-    display: none;
-  } */
-   .new-picture-box{
-    border:2px solid red;
-    width: 100%;
-    height: 100%;
-    
-   }
+ 
+  
 
 
 .slider{
@@ -1447,7 +1190,8 @@
     border-radius:10px;
     overflow:hidden;
     position: relative;
-}
+       } 
+
 .slides{
      width: 2800px;
     height: 500px;
