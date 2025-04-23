@@ -334,7 +334,7 @@
   
   .mid-border {
     /* border: 22px solid black; */
-    border:2px solid red;
+    /* border:2px solid red; */
     box-sizing: border-box;
     width: 100%;
      display: flex;
@@ -357,10 +357,8 @@
     /* border:2px solid green; */
     color: rgb(84, 82, 82);
      width: 40%;
-    min-height: 480px;
-    border-radius: 10px;
-    max-height: 531px;
-    height: 490px;
+     border-radius: 10px;
+     height: 490px;
     box-shadow: 1px 1px 20px gray;
     background-color: white;
      padding-bottom: 0px;
@@ -416,14 +414,14 @@
     box-sizing: border-box;
     height: 40px;
     max-height: 50px;
-    width: 33%;
+    width: 39%;
     display: flex;
     justify-content: space-between;
     padding: 0px 5px;
    z-index: 2;
    position: absolute;
    top:-20px;
-   left:69%;
+   left:60.7%;
    right: 0px;
     
   }
@@ -1097,7 +1095,9 @@
       display: block;
       width: 100%;
       height: 100%;
-    margin-top: 50px;
+      margin: 0%;
+      margin-top: 45px;
+    
     }
     .classes{
       margin-top: 590px;
@@ -1156,6 +1156,11 @@
       left:0%;
       width: 100%;
     }
+     
+.mid-border .slider{
+  width: 100%; 
+}   
+.time-line
   }
    
   
@@ -1183,14 +1188,38 @@
 
 
 .slider{
-    /* border:1px solid black; */
+    /* border:5px solid green; */
     background-color: white;
-    width:700px;
+    width:59%;
     height:500px;
     border-radius:10px;
     overflow:hidden;
     position: relative;
+
        } 
+       #photo-box1{
+        width: 25%;
+        object-fit: cover;
+       }
+       #photo-box2{
+        width: 25%;
+        object-fit: cover;
+       }
+       #photo-box3{
+        width: 25%;
+        object-fit: cover;
+       }
+       /* #photo-box4{
+        width: 25%;
+           } */
+       #photo-box4 img{
+        width: 100%;
+        height: 100%;
+      
+       }
+       /* .slide img{
+    width: 100%;
+  } */
 
 .slides{
      width: 2800px;
@@ -1202,18 +1231,18 @@
     display: none;
 }
 .slide{
-    width: 700px;
+    /* width: 700px; */
      height: 500px;
     transition: 2s;
 }
 .slide img{
-    width:700px;
+    /* width:700px; */
     height: 500px;
-    object-fit: contain;
-    object-position: center;  
+    object-fit: cover;
+    /* object-position: center;   */
 }
 .navigation-auto{
-    border:3px solid yellow;
+border:3px solid yellow;
 position: absolute;
 display: flex;
 width: 695px;
@@ -1233,7 +1262,8 @@ margin-right: 40px;
 /*css for manual slide navigation*/
 .navigation-manual{
 /* border: 2px solid blue; */
-width: 700px;
+width:100%;
+
 height: 15px;
 display: flex;
 justify-content: center;
@@ -1262,11 +1292,14 @@ top:455px;
     margin-left: 0;
 }
 #radio2:checked ~ .first{
-    margin-left: -700px;
+    /* margin-left: -700px; */
+    margin-left: -25%;
 }
 #radio3:checked ~ .first{
-    margin-left: -1400px;
+    /* margin-left: -1400px; */
+    margin-left: -50%;
 }
 #radio4:checked ~ .first{
-    margin-left: -2100px;
+    /* margin-left: -2100px; */
+    margin-left: -75%;
 }
