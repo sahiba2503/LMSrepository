@@ -11,11 +11,21 @@
     background-color: 3A3A3A;
     /* background-color: F8F8F8; */
   } 
-  
+  .marquee{
+    height: 25px;
+    width: 100%;
+    background-color: #183e89;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 31px;
+    z-index: 4;
+  }
   
   
   #header {
-    /* border:2px solid green; */
+    /* border:2px solid red; */
       display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +36,7 @@
     top: 0px;
     right: 0px;
     left: 0px;
+    z-index: 3;
   
   }
   
@@ -82,13 +93,14 @@
     /* min-width: 900px; */
     background-color: white;
     box-shadow: 0px 2px 15px 1px rgb(182, 176, 176);
-    padding: 13px 17px; 
+    padding:  27px 17px 11px 17px; 
     display: flex;
     justify-content: space-between;
     position: fixed;
     top: 30px;
     left: 0px;
     right: 0px;
+    z-index: 3;
   
   }
   .toggle{
@@ -159,6 +171,7 @@
     display: flex;
      align-items: center;
     justify-content: space-between;
+    /* z-index: 1; */
   }
   .item-border{
     /* border:2px solid  black; */
@@ -189,7 +202,7 @@
    
   }
    .dropdown1 ul li:hover {
-    background-color: rgb(231, 229, 229);
+      background-color: rgb(231, 229, 229);
     
   }
   .dropdown1 {
@@ -201,12 +214,15 @@
     position: absolute;
     background-color: white;
     display: none;
+    
+    
   }
   .dropdown1 ul li {
     display: block;
+    
    
   }
-  ul li:hover .dropdown1 {
+  ul li:hover .dropdown1{
   display: block;
   margin-left: -2px; 
   }
@@ -239,7 +255,7 @@
     width: 100%;
     margin-top: 127px;
     display: flex;
-   position: fixed;
+   /* position: fixed; */
    /* list-style: none; */
   
    
@@ -365,6 +381,7 @@
      margin-left: 20px;
      position: relative;
      overflow: auto;
+     z-index: -1;
      
   }
   
@@ -1083,7 +1100,7 @@
   #click{
     display: none;
   }
-  @media only screen and (max-width:690px){
+  /* @media only screen and (max-width:690px){
     .mid-border{
       display: block;
       margin: 0%;
@@ -1161,33 +1178,9 @@
   width: 100%; 
 }   
 .time-line
-  }
-   
-  
-
-
-
-
-
-
-
-
-
-
-
-      
-       
-       
-       
+  } */       
          
-      
-      
-    
- 
-  
-
-
-.slider{
+    .slider{
     /* border:5px solid green; */
     background-color: white;
     width:59%;
@@ -1195,6 +1188,7 @@
     border-radius:10px;
     overflow:hidden;
     position: relative;
+    z-index: -1;
 
        } 
        #photo-box1{
@@ -1302,4 +1296,288 @@ top:455px;
 #radio4:checked ~ .first{
     /* margin-left: -2100px; */
     margin-left: -75%;
+}
+@media only screen and (max-width:690px)
+{
+  .mid-border{
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    
+  }
+  .time-line{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    margin-top: 45px;
+  
+  }
+  .classes{
+    margin-top: 590px;
+    display: block;
+  }
+  .teachers-video{
+    width: 100%;;
+  }
+  .time-line2{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+  }
+  .hap-view{
+    top:531px;
+    left: 20px;
+    width: 100%;
+  }
+  .hap-view2{
+    top:531px;
+    left: 0px;
+    width: 100%;
+  }
+  .important-notice{
+    display: block;
+  }
+  .notice-box1-a{
+    width: 100%;
+    height: 500px;
+
+  }
+  .notice-box1-b{
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+        
+  }
+  .notice-box1-c{
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+        
+  }
+  .top-point1{
+    top:-40px;
+    left:0%;
+    width: 100%;
+  }
+  .top-point2{
+    top:530px;
+    left:0%;
+    width: 100%;
+  }
+  .top-point3{
+    top:1100px;
+    left:0%;
+    width: 100%;
+  }
+   .mid-border .slider{
+width: 100%; 
+}   
+
+/* ...........check */
+
+
+.outer-border-video{
+       
+  display: block;
+  margin-top: 3px;
+  
+}
+.video-a{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.important-notice{
+ 
+  display: block;
+}
+.notice-box1{
+ 
+  width: 100%;
+  margin-bottom: 50px;
+  height : 500px;
+ 
+}
+
+
+.top-point{
+   justify-content: space-between;
+  padding: 0px 20px;
+  
+  
+}
+.about-class{
+  width: 190px;
+  margin-top: -15px;
+      }
+      .view-notice{
+        width: 70px;
+        height: 35px;
+        margin-top: -15px;
+      }
+
+ .notice-box1{
+   height: 425px;
+   padding-bottom: 30px;
+ }
+.heading-point-a{
+  margin: 0;
+  margin: 190px 50px;
+}
+.heading-point-c{
+ 
+  padding: 0;
+  padding: 20px 50px;
+  
+ 
+}
+.e-tutorial{
+  width: 157px;
+}
+.Learner-part{
+  width: 145px;
+}
+#helpN{
+  display: none;
+
+}
+
+#header{
+  justify-content: space-between;
+}
+#lovely{
+   width: 33%;
+   height: 110px;
+   margin: 0;
+  padding: 38px;
+
+}
+.footer{
+  display: block;
+
+}
+.bborder{
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  
+}
+/* .scroll-navbar{
+   display: block;
+} */
+.font-size {
+  /* font-size: 19px; */
+  line-height: 13px;
+}
+.box-a-logo-size{
+  font-size: 19px;
+}
+ 
+.border-box-s p{
+font-size: 9px;
+}
+
+
+.center-nav-item {
+position: fixed;
+top:0px;
+left: -100%;
+background-color: white;
+ height: 100vh;
+width: 77vw;
+transition: all 0.3s ease;
+display: block;   
+}            
+.center-nav-item ul li{
+margin: 30px 55px;
+width: 200px;
+font-size: 19px;
+}
+.dropdown1{
+width: 200px;
+}
+.dropdown1  ul li{
+  font-size: 15px;
+}
+.dropdown1 ul li
+{
+  width: 100%;
+ margin: 0;
+ padding: 0;
+ padding-left: 15px;
+}
+
+
+
+.menu-btn{
+display: block;
+margin-top: 10px;
+}
+
+.box-heading-item0{
+display: none;
+}
+.item-border-p{
+margin-left: 53px;
+}
+#click:checked ~ .center-nav-item {
+top:100px;
+left: 0%;
+}  
+       #click:checked ~ .menu-btn i:before{
+content: "\f00d";
+
+}  
+.heading-space-announcement div{
+font-size: 9px;
+padding: 0;
+width: 15%;
+padding: 20px 0px;
+font-size: 9px;
+min-width: 45px;   
+
+
+}  
+.heading-space-announcement .heading-point-announce-all-text-padd {
+width: 5%;
+font-size: 13px;
+}
+.heading-space-announcement .heading-point-announce-text-padd{
+padding: 0;
+font-size: 13px;
+padding: 7px 0px;
+min-width: 145px;
+}
+.heading-space-announcement{
+min-width: 375px;
+
+}
+.heading-space-announcement-2{
+min-width: 375px;
+
+}
+.heading-point-announce-co{
+font-size: 11px;
+}
+.heading-point-announce-m{
+font-size: 11px;
+}
+.announsment-box{
+min-width: 450px;
+}
+.notice-box1{
+min-width: 450px;
+}
+.time-line{
+min-width: 450px;
+}
+.teachers-video{
+min-width: 450px;
+}
+.mid-body{
+min-width: 450px;
+}  
+
+
 }
