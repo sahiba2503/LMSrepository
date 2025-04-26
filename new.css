@@ -122,6 +122,11 @@
     background-image: url("https://www.lpuonline.com/images/LPU-Online-Logo.svg");
     background-repeat: no-repeat;
   }
+  /* .contact-box{
+    border:2px solid red;
+    width: 500px;
+    height: 500px;
+  } */
   
   .sign-out {
     /* border: 2px solid green; */
