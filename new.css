@@ -14,7 +14,10 @@
   .marquee{
     height: 25px;
     width: 100%;
-    background-color: #183e89;
+    height: 29px;
+    padding: 7px 0px;
+    font-weight: 700;
+    background-color:hsl(37, 96%, 48%);
     color: white;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
