@@ -378,7 +378,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 .footer{
-  /* border-top: 1px solid rgb(201, 197, 197); */
+  border-top: 1px solid rgb(201, 197, 197);
   /* border:2px solid black; */
   width: 100%; 
   min-width: 479px;
