@@ -9,12 +9,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
         <style>
            
             .table-contact{
                 /* border: 2px solid red; */
                 width: 100%;
+                height: auto;
+                margin-bottom: 0px;
                 
+            }
+            #outer-border-flex{
+                /* border:2px solid green; */
+                display: flex;
+                flex-direction: column;
+                border-radius: 17px;
+                box-shadow: 0px 2px 15px 1px rgb(150, 138, 138);
+            }
+                      .textArea{
+                /* border:2px solid green; */
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            form h3{
+                text-align: center;
+                font-size: 20px;
+                background-color: #183e89;
+                margin: 20px 0px;
+                color: white;
+                padding: 5px 0px;
             }
             #form-box{
                 /* border:2px solid green; */
@@ -22,6 +46,33 @@
                 height: 500px;
                 margin-top: 200px;
 
+            }
+            #form-outerbox{
+                /* border: 2px solid red; */
+                width: 100%;
+                height: auto;
+                
+            }
+            #form-outerbox td {
+                /* border: 2px solid red; */
+                /* width: 100%; */
+                height: auto;
+                margin-top: 20px;
+                /* width: calc(100%2 - 20px); */
+            }
+            #form-outerbox td input{
+                width: 100%;
+                height: 30px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                padding: 5px;
+            }
+            #form-outerbox td select{
+                width: 100%;
+                height: 30px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                padding: 5px;
             }
         </style>
 </head>
@@ -31,8 +82,9 @@
         <div id="header">
             <div id="nav-item">
                 <a>Calendar</a>
-                <a>Contact Us</a>
-                <a>E-Library</a>
+                <a href="ContactUs.html" class="contact-link">Contact Us</a>
+                <a href="DEBid.html" class="contact-link">E-Library</a>
+                <a href="ReferAndEarn.html" class="contact-link">Refer and Earn</a>
             </div>
             <div id="helpN">
                 <a>Helpline No.: 01824-520500</a>
@@ -256,9 +308,9 @@
         <div id="inside-body-border">
             
            
-           
-                           <div class="inside-body" style="padding: 11% 19%; height: auto; border: 2px solid red;">
-                            <div class="contact" style="min-width: 170px;" >
+           <div id="outer-border-flex">
+                           <div class="inside-body" style="padding: 5% 19% 3% 19%; box-shadow: none;">
+                            <div class="contact" style="min-width: 170px; z-index: 5;" >
                                 <i class="fa-regular fa-address-card"> </i> Refer and Earn</div>                                                             
                                 <table class="table-contact">
                                     <tr>
@@ -308,20 +360,22 @@
                                   
                                
                            </div>
-                          <div class="div" style="border :2px solid green; height: auto; width: 100%;">
+                           <div class="textArea" >
+                                 Your comment(if any)</td>
+                                <textarea  rows="10" cols="30" placeholder="Enter your Comment here ..." style="max-width: 45%; max-height: 70px;">Enter your comment here...</textarea>
+                                      </div>
+                          <div class="outer-border-form" style="height: auto; width: 100%; padding : 0px 11% ;">
                              <form action=""> 
                                 <h3>Details of student you would like to refer for Adission</h3>
-                                <table>
+                                <table id="form-outerbox">
                                     <tr>
-                                        <th>For Admission Session:July, 2025</th>
+                                        <th colspan="2">For Admission Session:July, 2025</th>
                                         <th></th>
                                          </tr>
+                                         
                                          <tr>
-                                            <td>Your comment(if any)</td>
-                                            <td><textarea  rows="10" cols="30" placeholder="Enter your Comment here ..." style="max-width: 45%; max-height: 70px;">Enter your comment here...</textarea></td>
-                                         </tr>
-                                         <tr>
-                                            <td>Student Name(*):</td>
+                                            <td>Student Name(*): 
+                                                   </td>
                                             <td> <input type="text"></td>
                                          </tr>
                                          <tr>
@@ -404,7 +458,7 @@
 
                                 </table>
                              </form></div>
-
+           </div>
                 <div class="footer">
                     <div class="bborder">
                         <div id="lovely">L</div>

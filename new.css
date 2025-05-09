@@ -47,13 +47,19 @@
   #nav-item {
     max-width: 25%;  
     /* border: 2px solid red; */
-    width: 27%;
+    width: 37%;
     min-width: 230px;
     color: white;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
   
+  }
+  #nav-item a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   #nav-item2 {
@@ -64,8 +70,10 @@
     justify-content: space-between;
   }
   #helpN {
-    /* border: 2px solid green; */
+    border: 2px solid green;
     /* min-width: 50%; */
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     text-align: center;
     align-items: center;
