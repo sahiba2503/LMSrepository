@@ -70,7 +70,7 @@
     justify-content: space-between;
   }
   #helpN {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     /* min-width: 50%; */
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
@@ -551,7 +551,7 @@
     
   }
   .teachers-video{
-    border: 1px solid rgb(107, 106, 106);
+    /* border: 1px solid rgb(107, 106, 106); */
     /* border: 2px solid green; */
     box-sizing: border-box;
     border-top-left-radius: 13px;
@@ -618,7 +618,8 @@
     height: 100%;
   }
   .time-line2{
-    border: 1px solid rgb(119, 118, 118);
+    /* border: 1px solid rgb(119, 118, 118); */
+    box-shadow: 2px 2px 20px 1px rgb(158, 154, 154);
     border-radius: 10px;
     width: 36.5%;
     display: flex;
@@ -730,7 +731,7 @@
    position: relative;
   }
   .notice-box1-a{
-    border:1px solid rgb(119, 116, 116);
+    /* border:1px solid rgb(119, 116, 116); */
     border-radius: 15px;
     width: 32%;
      height: 510px;
@@ -740,7 +741,7 @@
    
   }
   .notice-box1-b{
-    border:1px solid rgb(119, 116, 116);
+    /* border:1px solid rgb(119, 116, 116); */
     border-radius: 15px;
     width: 32%;
      height: 510px;
@@ -751,7 +752,7 @@
   }
 
   .notice-box1-c{
-    border:1px solid rgb(119, 116, 116);
+    /* border:1px solid rgb(119, 116, 116); */
     border-radius: 15px;
     width: 32%;
      height: 510px;
