@@ -46,7 +46,8 @@ body{
   
 }
 #myimage{
-    width: 60%;
+    border: 2px solid green;
+    width: 75%;
     height: 150px;      
     border:9px solid gray;
     border-radius: 50%;
@@ -54,7 +55,8 @@ body{
     margin-bottom: 20px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover; 
+      
 }
 .main-detail{
     /* border:2px solid red; */
@@ -160,5 +162,72 @@ body{
         /* border:2px solid green; */
         width: 75%;
     }
+       #responsivebtn{
+        /* border: 2px solid red; */
+         width: 90%;
+         display: block;
+         align-items: center;
+         justify-content: center;
+         padding-left: 10%;
+       
+    }
+    #outer-border-click-btn{
+        display: none;
+    }
+    
+
+   @media only screen and (max-width:990px){
+.sidbar{
+    width: 100%;
+    height: 100px;
+    display: block;
    
+   
+}
+
+#myimage{
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+     border-width: 0;
+     /* margin: 15px 0 10px 20px; */
+} 
+.main-detail h1{
+    margin-top: 100px;
+}
+#responsivebtn{
+    /* border:2px solid red; */
+    height: 100px;
+    width: 94%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 0;
+    padding: 0 3%;
+
+}
+ #outer-border-click-btn{
+    /* border: 3px soid green; */
+        display: block;
+    }
+
+    .detail{
+    /* border:2px solid green; */
+    display: block;
+    text-align: left;
+    padding-left: 3%;
+    display: none;
+    
+ }
+#click:checked ~ .sidbar{
+    width: 400px;
+}  
+.main-detail{
+    /* border:2px solid green; */
+    margin-left: 0;
+    width: 100%;
+}
+
+   }
     
