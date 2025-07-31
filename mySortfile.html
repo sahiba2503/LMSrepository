@@ -19,7 +19,7 @@
             border:2px solid green;
             width: 400px;
             height: 400px;
-             overflow: hidden;
+             /* overflow: hidden; */
              position: relative;
         }
         #inner-small-box{
@@ -31,7 +31,7 @@
             margin-left: -400px;
            
         }
-        .inner-small-box{
+        .inner-BOX1 {
             /* border:2px solid blue;  */
             height: 100%;  
             width: 400px;
@@ -68,15 +68,28 @@
             position: absolute;
             top:70%;
         }
+        .inner-BOX.active{
+            transform: translateX(0);
+        }
+        
+
     </style>
 </head>
 <body><div id="outer">
  <div class="small-box">
     <div id="inner-small-box">
-        <div class="inner-small-box" style="background-color: blue;">1</div>
-        <div class="inner-small-box" style="background-color: red;">2</div>
-        <div class="inner-small-box" style="background-color: yellow">3</div>
-        <div class="inner-small-box" style="background-color: green">4</div>
+        <div class="inner-BOX active"  style="background-color: blue;">1
+            <img src="image4.jpg" alt="picture2" width="100%" height="100%">
+        </div>
+        <div class="inner-BOX" style="background-color: red;">
+            2<img src="image3.jpeg" alt="picture2" width="100%" height="100%">
+        </div>
+        <div class="inner-BOX" style="background-color: yellow">3
+            <img src="image5.jpeg" alt="picture2" width="100%" height="100%">
+        </div>
+        <div class="inner-BOX" style="background-color: green">4
+            <img src="image6.jpeg" alt="picture2" width="100%" height="100%">
+        </div>
     </div>
     <div id="circle-border">   
     <label for="radio1" class="circle1"></label>
@@ -86,7 +99,7 @@
      
 </div>
 <div class="input-box-radio">
-<input type="radio" name="radio" id="radio1" checked>
+<input type="radio" name="radio" id="radio1" >
 <input type="radio" name="radio" id="radio2" >
 <input type="radio" name="radio" id="radio3" >
 <input type="radio" name="radio" id="radio4">

@@ -1120,6 +1120,7 @@
     
   }
    .menu-btn{
+    border:2px solid red;
      font-size:21px;
      margin-top: 10px;
      margin-right: 10px;
@@ -1127,7 +1128,7 @@
      display: none;
   }
   #click{
-    display: none;
+    /* display: none; */
   }
   /* @media only screen and (max-width:690px){
     .mid-border{
