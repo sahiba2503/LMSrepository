@@ -31,15 +31,15 @@ body{
     position: fixed;
         
 }
-#detail{
+.menu{
     /* border:2px solid black; */
     margin-left: -10%;
 }
-#detail li{
+.menu li{
     list-style-type:none;
 
 }
-.sidbar a{
+.menu li a{
     text-decoration: none;
     color:white;
     display: block;    
@@ -67,7 +67,7 @@ body{
     width: 80%;
     padding:  50px 50px 0px 50px;
    margin-left: 20%;
-    /* padding-bottom: 90px; */
+    
    
 }
 .main-detail h1{   
@@ -124,8 +124,7 @@ body{
     align-items: center;
     justify-content: center;
 } 
-/* #about-Experience{
-    /* border:2px solid black; */
+
    
    
 #about-Experience h2{
@@ -133,8 +132,7 @@ body{
     letter-spacing: -1px;
     margin-top: 50px;
 }
-/* .heading-point{
-    /* border:2px solid red; */
+
 
 .heading-point{
     display: flex;
@@ -166,19 +164,8 @@ body{
         /* border:2px solid green; */
         width: 75%;
     }
-       #responsivebtn{
-        /* border: 2px solid red; */
-         width: 85%;
-         display: block;
-         align-items: center;
-         justify-content: center;
-         padding-left: 15%;
-       
-    }
-    /* #outer-border-click-btn{
-        display: none;
-    } */
-    .menu-btn , #click{
+      
+    .menu-btn , #OpenSidebarMenu{
         display: none;
     }
 
@@ -217,9 +204,7 @@ body{
         margin-top: -60px;
         font-size: 18px;
        }
-       /* #Education-Intermediate{
-        margin-top: -25px;
-       } */
+       
        #aboutEducation .more-detail{
         margin-top: -20px;
        }
@@ -249,9 +234,7 @@ margin-top: 20px;
 .sidbar{
     width: 100%;
     height: 100px;
-    display: block;
-   
-   
+    display: block;   
 }
 
 #myimage{
@@ -260,66 +243,51 @@ margin-top: 20px;
     padding: 0;
     margin: 0;
      border-width: 0;
-     /* margin: 15px 0 10px 20px; */
-} 
+     } 
 .main-detail h1{
     margin-top: 100px;
 }
-#responsivebtn{
-    /* border:2px solid red; */
-    height: 100px;
-    width: 94%;
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-    padding-left: 0;
-    padding: 0 3%;
 
-}
-
- /* #outer-border-click-btn{ */
-    /* border: 3px soid green; */
-        /* display: block; */
-    /* } */
-     #click{
+     #OpenSidebarMenu{
         display: none;
     }
     .menu-btn{
         display: block;
         cursor: pointer;
+        text-align: right;
+       padding-right: 5%;
+       margin-top: -40px;
         
     }
-  #detail li a{
+  .detail li a{
     display: block;
     background-color:#27CCF5;
     text-align: center;
+   width: 100%;
+   line-height: 60px;
 
        
  }
- #detail {
+ .detail {
     margin: 0;
     padding: 0;
     position:absolute;
     width: 100%;
-    top:100px;
-    left: 100%;
- }
-       
- #click:checked ~ #detail{
-    padding: 10px 0;   
+    transform:translateY(-200%);
     transition: all 0.3s ease;
-    background-color: red; 
-    display: block;
-     width: 100%;
-    left: 0%;   
+   z-index: -1;
+    
+ }
+
+ #OpenSidebarMenu:checked ~ .detail{
+    transform:translateY(0%);
 
 }  
- 
-     #click:checked ~ .menu-btn i:before{
+
+     #OpenSidebarMenu:checked ~ .menu-btn i:before{
 content: "\f00d";
 } 
 .main-detail{
-    /* border:2px solid green; */
     margin-left: 0;
     width: 100%;
 }
