@@ -229,6 +229,37 @@ body{
 margin-top: 20px;
         font-size: 18px;
       }
+      .myproject{
+        margin-top: 80px;
+        color:rgb(81, 75, 75);
+        font-size: 30px;
+        letter-spacing: -1px;
+      }
+      .mySmog{
+        font-size: 20px;
+        color: rgb(42, 39, 39);
+        letter-spacing: -1px;
+        margin-top: 50px;
+      }
+      .myprojectlink{
+        font-size: 18px;
+        color: rgb(42, 39, 39);
+        letter-spacing: -1px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        color:#d16218;
+        text-decoration: underline;
+      }
+      .detail-about-project ul{
+        /* border:2px solid red; */
+        width: 75%;
+      }
+        .detail-about-project li{
+           font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 7px;
+       
+        }
 
     @media only screen and (max-width:990px){
 .sidbar{
