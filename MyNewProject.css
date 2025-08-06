@@ -85,6 +85,9 @@ body{
     line-height: 30px;   
     font-size: 21px;
 }
+.menu ul li a {
+    color:#27CCF5; 
+}
 #logo-button{
     /* border:2px solid red; */
     width: 155px;
@@ -138,6 +141,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color:#d16218;
 }
 #about-Experience h3{
     font-weight: 700;
@@ -171,18 +175,22 @@ body{
 
 
     #aboutEducation #Education-heading {
-        font-size: 35px;
+        font-size: 30px;
         color:  rgb(42, 39, 39);
         letter-spacing: -2px;
         margin-bottom: 70px;
     }
+     #aboutEducation .education-inf h3{
+       color:  rgb(82, 78, 78);
+        font-size: 20px;
+     }
    #aboutEducation .education-inf{
     /* border:2px solid red; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    color:red;
+    color:#d16218;
    }
     #aboutEducation .Education-place{
          font-size: 25px;
@@ -235,6 +243,7 @@ margin-top: 20px;
         font-size: 30px;
         letter-spacing: -1px;
       }
+     
       .mySmog{
         font-size: 20px;
         color: rgb(42, 39, 39);
@@ -260,6 +269,70 @@ margin-top: 20px;
         margin-bottom: 7px;
        
         }
+        .logo-language {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-language i{
+            font-size: 50px;
+        }
+        .detail .fontColor{
+            color:#bdd5db;
+            
+        }
+        .detail .fontColor:hover{
+            color:white;
+            
+        }
+
+     
+      
+         #footer{
+            /* border:2px solid red; */
+            padding: 0 5%;
+         }
+         #footer h2{
+            font-size: 30px;
+            color: rgb(42, 39, 39);
+            letter-spacing: -1px;
+            margin-top: 50px;
+                     }
+                     #footer h4{
+            font-size: 20px;
+            letter-spacing: -1px;
+            margin-top: 50px;
+                     }
+         .logo-pro-language{
+            width: 100%;
+            text-align: left;
+            font-size: 50px;
+            margin-top: 50px;
+           
+         }
+         #footer  li{
+            font-size: 18px;
+            line-height: 20px;
+            margin-bottom: 10px;
+
+         }
+         .detail-of-date{
+             /* color:#d16218; margin-left:0px;
+            margin-left:0px; */
+            display: none;
+         }
+         
+          .detail-of-date-education{
+             /* margin: -30px 0px 0px 0px;
+             color:#d16218; */
+            display: none;
+         }
+         .hid-date-detail{
+            display: none;
+         }
+     
+         
 
     @media only screen and (max-width:990px){
 .sidbar{
@@ -287,7 +360,7 @@ margin-top: 20px;
         cursor: pointer;
         text-align: right;
        padding-right: 5%;
-       margin-top: -40px;
+       margin-top: -60px;
         
     }
   .detail li a{
@@ -322,6 +395,26 @@ content: "\f00d";
     margin-left: 0;
     width: 100%;
 }
-
+#myimage{
+   margin:10px 0px 11px 11px;
+}
+          
+          
+       
    }
+       @media only screen and (max-width:765px){
+        .detail-of-date{
+            display: block;
+         }
+          .detail-of-date-education{
+            display: block;
+         }
+         .heading-point div{
+            display: none;
+         }
+         .hid-date-detail{
+            display: block;
+            margin-left: 0px;
+         }
+       }
     
