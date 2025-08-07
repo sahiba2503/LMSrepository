@@ -51,8 +51,10 @@ body{
 }
 #myimage{
     border: 2px solid green;
-    width: 75%;
-    height: 150px;      
+    width: 150px;
+    height: 150px; 
+    
+         
     border:9px solid gray;
     border-radius: 50%;
     background-image: url("picture.jpeg");
@@ -252,7 +254,6 @@ margin-top: 20px;
       }
       .myprojectlink{
         font-size: 18px;
-        color: rgb(42, 39, 39);
         letter-spacing: -1px;
         margin-top: -10px;
         margin-bottom: 20px;
@@ -397,6 +398,7 @@ content: "\f00d";
 }
 #myimage{
    margin:10px 0px 11px 11px;
+    background-size: 100%;
 }
           
           
