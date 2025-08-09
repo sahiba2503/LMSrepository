@@ -379,14 +379,14 @@ margin-top: 20px;
     padding: 0;
     position:absolute;
     width: 100%;
-    transform:translateY(-200%);
+    transform:translateX(-200%);
     transition: all 0.3s ease;
    z-index: -1;
     
  }
 
  #OpenSidebarMenu:checked ~ .detail{
-    transform:translateY(0%);
+    transform:translateX(0%);
 
 }  
 
