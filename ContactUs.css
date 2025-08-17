@@ -44,11 +44,10 @@
 }
 
 #nav-item {
-  max-width: 25%;  
+  
   /* border: 2px solid red; */
-  width: 27%;
-  min-width: 230px;
-  color: white;
+  width: 50%;
+   color: white;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
