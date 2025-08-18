@@ -608,7 +608,7 @@
       display: flex;
        justify-content: space-between;
        padding: 0px 15px;
-       margin-top: -17px;
+       margin-top: -0px;
       
     
   }
@@ -1354,6 +1354,7 @@ top:455px;
     width: 100%;
     
   }
+ 
   .time-line{
     display: block;
     width: 100%;
@@ -1380,6 +1381,7 @@ top:455px;
     width: 100%;
   }
   .hap-view2{
+    /* border:2px solid black; */
     top:531px;
     left: 0px;
     width: 100%;
@@ -1399,23 +1401,27 @@ top:455px;
         
   }
   .notice-box1-c{
+    
     width: 100%;
     height: 500px;
     margin-top: 70px;
         
   }
   .top-point1{
-    top:-40px;
+    /* border:2px solid red; */
+    top:-0px;
     left:0%;
     width: 100%;
   }
   .top-point2{
-    top:530px;
+     /* border:2px solid red; */
+    top:555px;
     left:0%;
     width: 100%;
   }
   .top-point3{
-    top:1100px;
+      /* border:2px solid red; */
+    top:1130px;
     left:0%;
     width: 100%;
   }
@@ -1482,8 +1488,10 @@ width: 100%;
 }
 .e-tutorial{
   width: 157px;
+  margin-top: -15px;
 }
 .Learner-part{
+  margin-top: -15px;
   width: 145px;
 }
 #helpN{
