@@ -398,11 +398,10 @@
   
   .time-line {
     border: 0.5px solid rgb(228, 226, 226);
-    /* border:2px solid green; */
-    color: rgb(84, 82, 82);
+     color: rgb(84, 82, 82);
      width: 40%;
      border-radius: 10px;
-     height: 490px;
+     height: 495px;
     box-shadow: 1px 1px 20px gray;
     background-color: white;
      padding-bottom: 0px;
@@ -457,17 +456,19 @@
     /* border: 1px solid orange; */
     background-color: white;
     box-sizing: border-box;
-    height: 40px;
-    max-height: 50px;
-    width: 39%;
+    height: 40px; 
+    width: 100%;    
     display: flex;
     justify-content: space-between;
-    padding: 0px 5px;
-   z-index: 2;
-   position: absolute;
-   top:-20px;
-   left:60.7%;
-   right: 0px;
+    padding: 0;
+    position: absolute;
+
+   z-index: 105;
+   /* position: absolute; */
+   /* top:-20px; */
+   /* left:40.7%; */
+   /* right: 0px; */
+   margin-top: 0px;
     
   }
   .hap-view2{
@@ -565,8 +566,7 @@
   
   .e-tutorial{
     /* border: 2px solid red; */
-    max-width: 45%;
-    min-width: 150px;
+    width: 45%;    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -586,8 +586,7 @@
   .Learner-part{
     /* border: 2px solid green; */
     border-radius: 7px;
-    max-width: 45%;
-    min-width: 150px;
+    width: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -608,7 +607,7 @@
       display: flex;
        justify-content: space-between;
        padding: 0px 15px;
-       margin-top: -0px;
+       margin-top: -20px;
       
     
   }
@@ -1055,7 +1054,7 @@
     /* border:2px solid yellow; */
     padding-top: 30px;
     overflow: auto;
-    max-height: 73.5%;
+    height: 67%;
   }
   
   
@@ -1357,14 +1356,16 @@ top:455px;
  
   .time-line{
     display: block;
+    border:2px solid green;
     width: 100%;
     height: 100%;
     margin: 0%;
+    
     margin-top: 45px;
   
   }
   .classes{
-    margin-top: 590px;
+    margin-top: 600px;
     display: block;
   }
   .teachers-video{
@@ -1376,8 +1377,6 @@ top:455px;
     margin-top: 50px;
   }
   .hap-view{
-    top:531px;
-    left: 20px;
     width: 100%;
   }
   .hap-view2{
@@ -1480,19 +1479,29 @@ width: 100%;
   margin: 190px 50px;
 }
 .heading-point-c{
- 
+
   padding: 0;
   padding: 20px 50px;
   
  
 }
+.outer-border-box{
+  /* border:2px solid green; */
+  width: 100%;
+  display: flex;
+  padding: 0 7px;
+  justify-content: space-between;
+}
 .e-tutorial{
-  width: 157px;
+  width: 40%;
   margin-top: -15px;
+  font-size: 11px;
+  
 }
 .Learner-part{
   margin-top: -15px;
-  width: 145px;
+   font-size: 13px;
+  width: 50%;
 }
 #helpN{
   display: none;
