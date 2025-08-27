@@ -408,7 +408,7 @@
      margin-left: 20px;
      position: relative;
      overflow: auto;
-     z-index: -1;
+     z-index: 0;
      
   }
   
@@ -438,8 +438,7 @@
     
   }
   .view {
-    /* border: 2px solid green; */
-    box-sizing: border-box;
+     box-sizing: border-box;
     border-radius: 7px;
     text-align: center;
     background-color: hsl(37, 96%, 48%);
@@ -453,28 +452,26 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .hap-view{
-    /* border: 1px solid orange; */
-    background-color: white;
+    border-bottom: px solid gray;
+    /* border:3px solid green; */
+    border-radius: 5%;
     box-sizing: border-box;
     height: 40px; 
-    width: 100%;    
+    width: 40%;    
     display: flex;
     justify-content: space-between;
-    padding: 0;
+    padding: 0; 
     position: absolute;
+    top: -20px;
+    left: 60%;
+     z-index: 1; 
+    
 
-   z-index: 105;
-   /* position: absolute; */
-   /* top:-20px; */
-   /* left:40.7%; */
-   /* right: 0px; */
-   margin-top: 0px;
     
   }
+ 
   .hap-view2{
-    /* border: 1px solid orange; */
-    /* background-color: white; */
-    box-sizing: border-box;
+       box-sizing: border-box;
     height: 40px;
     max-height: 50px;
     width: 36.5%;
@@ -566,41 +563,36 @@
   
   .e-tutorial{
     /* border: 2px solid red; */
-    width: 45%;    
+    width: 40%;    
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 7px;
     background-color: #183e89;
-   padding: 5px;
+   padding: 7px;
     color:white
     
   }
-  .e-tutorial h3{
-   margin-left: 15px;
-   font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
-     
+  .e-tutorial i {
+    margin-right: 5px;
   }
+
   
   .Learner-part{
     /* border: 2px solid green; */
     border-radius: 7px;
-    width: 45%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: hsl(37, 96%, 48%);
-    padding: 5px 0px;
+    padding: 7px 0px;
     color:white
   }
-  .Learner-part h4{
-    margin-left: 11px;
-    font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
-  
-    
+  .Learner-part i {
+    margin-right: 5px;
   }
+ 
   .outer-border-box{
     /* border: 2px solid red; */
     width: 100%;
@@ -1102,7 +1094,7 @@
      text-align: center;
      justify-content: center;
      padding: 30px 0px;
-     margin-top: 110px;
+     margin-top: 150px;
    
    
   }
@@ -1356,8 +1348,7 @@ top:455px;
  
   .time-line{
     display: block;
-    border:2px solid green;
-    width: 100%;
+     width: 100%;
     height: 100%;
     margin: 0%;
     
@@ -1378,6 +1369,8 @@ top:455px;
   }
   .hap-view{
     width: 100%;
+    left: 0;
+    top:525px;
   }
   .hap-view2{
     /* border:2px solid black; */
@@ -1493,7 +1486,7 @@ width: 100%;
   justify-content: space-between;
 }
 .e-tutorial{
-  width: 40%;
+  width: 30%;
   margin-top: -15px;
   font-size: 11px;
   
@@ -1501,7 +1494,7 @@ width: 100%;
 .Learner-part{
   margin-top: -15px;
    font-size: 13px;
-  width: 50%;
+  width: 31%;
 }
 #helpN{
   display: none;
