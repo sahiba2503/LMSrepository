@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        h1{
+            color: darkblue;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .mydiv{
+            border:12px solid black;
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        #smallbox{
+            background-color: lightgreen;
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            border: 2px solid green;
+            border-radius: 10px;
+            overflow:auto;
+        }   
+        #smallbox2{
+            background-color: orange;
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            border: 2px solid red;
+            border-radius: 10px;
+            overflow: auto;
+        }
+
+        #bigbox{
+            background-color: lightyellow;
+            width: 400px;
+            height: 200px;
+            padding: 10px;
+            border: 2px solid orange;
+            border-radius: 10px;
+            overflow: auto;
+        }
+        #bigbox2{
+            background-color: yellow;
+            width: 400px;
+            height: 200px;
+            padding: 10px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            overflow: auto;
+        }
+        .setarrclass{
+            
+            color:green;
+            font-size: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>This is my big heading of the page</h1>
+    <p>This is my paragraph</p>
+    <div class="mydiv" id="myid" style="border:3px solid green;">
+        <div id="smallbox"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia impedit harum omnis excepturi ut reiciendis ab quis architecto facere totam, possimus similique, nihil debitis? Recusandae libero non deleniti ratione?</div>
+        <div id="smallbox2" id="copyid"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia impedit harum omnis excepturi ut reiciendis ab quis architecto facere totam, possimus similique, nihil debitis? Recusandae libero non deleniti ratione?</div>
+
+    </div>
+    <div class="mydiv">
+        <div id="bigbox"  class="abcd"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil porro placeat dolor nam, dolorem commodi officiis excepturi quod amet nostrum ullam iusto odio, nisi quam nesciunt suscipit possimus sint ex!Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae dolores rem minus quos atque non tempora voluptatum nulla? Nobis atque nemo vel, corporis possimus totam deleniti dolores fuga quo?</div>
+        <div id="bigbox2"><p>hello para</p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum et dolorum itaque, suscipit ipsum voluptates facere odio quis pariatur sunt fugiat optio unde? Et consequuntur quis alias esse maxime nam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fuga tempora nobis eius sunt aspernatur, consequuntur, aliquam veniam eligendi dolores nostrum, maxime distinctio rerum? Doloribus neque distinctio asperiores eligendi quae.</div>
+    </div>
+    <div class="mydivelement">
+        <p>abcdefg</p>
+        <div id="mysmallbox" class = "myclassbox" style="color: brown;">mysmall div value</div>
+    </div>
+    <script src="program.js"></script>
+</body>
+</html>
