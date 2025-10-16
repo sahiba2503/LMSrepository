@@ -961,6 +961,7 @@
   .first-point-text{
     /* border:2px solid green; */
     width: 100%;
+    margin-bottom: 17px;
      display: flex;
      justify-content: space-between;
      
@@ -1004,7 +1005,7 @@
   .first-point-text .heading-point-announce-text-padd{
     /* border: 2px solid green; */
     box-sizing: border-box;
-    width: 50%;
+    width: 45%;
     
     display: flex;     
     align-items: center;
